@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clr {
+    clear: both;
+}
+
+body{
+    background-image: url('../images/gray.jpg');
+    background-position: center;
+}
+
+header {
+    background-color: rgba(34, 34, 34, 0.5);
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px outset silver;
+}
+
+#title-container {
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgba(240, 248, 255, 0.8)
+}
+
+.float-child {
+    float: left;
+    box-sizing: border-box;
+}
+
+#nav-container {
+    margin:10px;
+    padding-top: 10px;
+    margin-left: 23px;
+}
+
+#nav-container ul {
+    list-style: none;
+}
+
+#nav-container li {
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: large;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: underline;
+}
+
+a:hover{
+    color:rgb(213, 219, 224);
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    padding: 2% 5%;
+    color: rgba(240, 248, 255, 0.8);
+}
+
+.main-content .quote{
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+#head-quote{
+    margin-right: 25px;
+    color:lightcyan;
+}
+
+.main-box{
+    border: 2px ridge rgb(96, 96, 104);
+    background: rgba(30, 30, 30, 0.705);
+    border-bottom-right-radius: 15px;
+    width: fit-content;
+    margin: 15px;
+}
+
+#bio{
+    max-width: 85%;
+}
+.main-box p{
+    padding: 10px;
+    line-height: 1.4em;
+    font-size: large;
+}
+
+.social-box{
+    border: 2px ridge rgb(187, 103, 47);
+    background: rgba(255, 240, 31, 0.27);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 15%;
+    padding: 5px;
+    box-sizing: border-box;
+    color: rgb(103, 206, 207);
+}
+
+.social-box ul{
+    list-style: none;
+}
+
+.social-box li{
+    padding-top: 10px;
+}
+
+.social-box a{
+    font-family: cursive, papyrus, 'Times New Roman';
+    color:blueviolet;
+    font-size: large;
+}
+
+.social-box a:hover{
+    color:rgba(137, 43, 226, 0.692);
+}
+
+.subhead{
+    margin: 10px;
+    font-size: x-large;
+}
+
+.big-list{
+    list-style: inside square;
+    padding: 10px;
+}
+
+.big-list li{
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+aside{
+    position: fixed;
+    right: 0%;
+    bottom: 25%;
+    width:15%;
+}
+
+footer{
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    color: lightcyan;
+    border-top: 1px inset silver;
+}
