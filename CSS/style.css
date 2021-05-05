@@ -95,12 +95,18 @@ main {
     font-size: large;
 }
 
+.auxiliary-content {
+    position: fixed;
+    right: 0%;
+    bottom: 25%;
+    width: 15%;
+}
+
 .social-box {
     border: 2px ridge rgb(187, 103, 47);
     background: rgba(255, 240, 31, 0.27);
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    width: 15%;
     padding: 5px;
     box-sizing: border-box;
     color: rgb(103, 206, 207);
@@ -137,13 +143,6 @@ main {
 .big-list li {
     padding-bottom: 10px;
     font-size: larger;
-}
-
-aside {
-    position: fixed;
-    right: 0%;
-    bottom: 25%;
-    width: 15%;
 }
 
 footer {
@@ -197,4 +196,12 @@ footer {
     position: relative;
     float: left;
     border-color: ghostwhite;
+}
+
+@media only screen and (max-width: 768px){
+    .auxiliary-content {
+        position: static;
+        margin-top: 10%;
+        width: 100%;
+    }
 }
