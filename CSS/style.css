@@ -109,7 +109,7 @@ main {
     border-top-left-radius: 15px;
     padding: 5px;
     box-sizing: border-box;
-    color: rgb(103, 206, 207);
+    color: rgb(116, 233, 235);
 }
 
 .social-box ul {
@@ -122,12 +122,12 @@ main {
 
 .social-box a {
     font-family: cursive, papyrus, 'Times New Roman';
-    color: blueviolet;
+    color: rgb(219, 181, 255);
     font-size: large;
 }
 
 .social-box a:hover {
-    color: rgba(137, 43, 226, 0.692);
+    color: rgba(212, 167, 255, 0.692);
 }
 
 .subhead {
