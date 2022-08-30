@@ -170,3 +170,10 @@ main{
 	color: white;
 }
 
+#contact{
+	clear: left;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	text-align: center;
+}
