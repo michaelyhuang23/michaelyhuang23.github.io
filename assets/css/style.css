@@ -160,7 +160,7 @@ main{
 }
 
 .flex-element{
-	max-width: 400px;
+	max-width: 350px;
 	padding: 1.5em;
 	border-radius: 15px;
 	box-shadow: 0px 0px 10px 10px rgb(150, 150, 150);
@@ -176,4 +176,16 @@ main{
 	padding-top: 5%;
 	padding-bottom: 3%;
 	text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #blurb{
+  	float: none;
+  	width: 100%;
+  }
+  #headshot{
+  	float: none;
+  	width: 100%;
+  }
 }
