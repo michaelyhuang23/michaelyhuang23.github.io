@@ -7,116 +7,47 @@
 <head>
     <!--define metadata: charset, description-->
     <meta charset="UTF-8">
-    <meta name="description" content="Michael's personal website, see personal blogs and projects!">
+    <meta name="description" content="Michael Huang's personal website">
     <meta name="author" content="Michael Huang">
     <meta name="keywords"
-        content="Michael Huang, Phillips Academy, Computer Science, Math, Physics, Chemistry, Machine Learning, Deep Learning, Facemask, Robotics, VEX">
+        content="Michael Huang, Phillips Academy, Computer Science, Machine Learning, Parallel Computing, Physics, Philosophy">
     <meta name="viewport" content="width=device_width, initial-scale=1.0">
     <!--title of website displayed in top bar-->
-    <title>Michael Huang's Website</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-196615560-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-196615560-2');
-    </script>
-
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Michael Huang</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="float-child">
-            <div id="title-container">
-                <h1><a href="index.html">Michael Huang</a></h1>
-            </div>
-        </div>
-        <div class="float-child">
-            <div id="nav-container">
-                <nav>
-                    <ul>
-                        <li><a href="index.html"><b>Home</b></a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="https://intuitivephysics.me" target="_blank">Blog</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="clr"></div>
-    </header>
-    <main>
-        <div class="main-content">
-            <h2 class="quote" id="head-quote">"<i>Nothing contributes so much to tranquillize the mind as a steady purpose, -- a point on which the soul may fix its intellectual eye.</i>"<br>&emsp;&emsp;&emsp; ––Mary Shelley
-            </h2>
-            <div class="main-box float-child" id="favorites">
-                <h3 class="subhead">A list of favorite things</h3>
-                <ul class="big-list">
-                    <li>Physics</li>
-                    <li>Machine Learning</li>
-                    <li>Competitive Programming</li>
-                    <li>Robotics</li>
-                    <li>Math</li>
-                    <li>Chemistry</li>
-                    <li>Star Wars</li>
-		    <li>Chess</li>
-                </ul>
-            </div>
-            <div class="main-box float-child" id="facts">
-                <h3 class="subhead">A list of interesting facts</h3>
-                <ul class="big-list">
-                    <li>Tensorflow's tf.ragged.stack function is buggy <br>and they haven't fixed it for months <s>angry faces</s>;<br>UPD: never mind, I switched to pytorch</li>
-                    <li>Magnetic field doesn't do work on charges but has energy</li>
-                    <li>My favorite song is the <a href="https://www.youtube.com/watch?v=-bzWSJG93P8"
-						   target="_blank">Imperial March</a></li>
-		    <li>My favorite music is <a href="https://www.youtube.com/watch?v=HMGetv40FkI"
-                            target="_blank">Merry-Go-Round of Life</a></li>
-                </ul>
-            </div>
-            <div class="main-box float-child" id="bio">
-                <h3 class="subhead">A short bio</h3>
-                <p>
-                    I grew up in Guangzhou China, a big city near Hong Kong. I studied in Tianhe Foreign Language
-                    School, a small middle school with incredible people. There, I juggled with robotics, game
-                    development, and foreign languages (English and Spanish). Most importantly, I developed a passion
-                    for physics and computer science!
-                    <br>
-                    <br>
-                    Now, I attend Phillips Academy, Andover as part of the class of 2023. It's a big school with, again,
-                    incredible people. I continue to juggle with physics, computer science, robotics, and engineering!
-                </p>
-            </div>
-	    <div class="main-box float-child" id="links">
-              <h3 class="subhead">A short list of interesting webprojects</h3>
-	      <ul class="big-list">
-		<li><a href="Sound-Vis/"><b>Spectrogram Visualization of Sound (use Chrome)</b></a></li>
-		<li><a href="ElasticSpace-web/"><b>ElasticSpace webgame</b></a></li>
-		<li><a href="Extinctathon-web/"><b>Extinctathon webgame</b></a></li>
-		<li><a href="The-Great-Gatsby/"><b>The Great Gatsby</b></a></li>
-	      </ul>
-            </div>
-            <div class="clr"></div>
-        </div>
-        <div class="auxiliary-content" data-nosnippet>
-            <div class="social-box">
-                Social Media:
-                <ul>
-                    <li>Follow me on <s>Twitter</s> <a href="https://github.com/michaelyhuang23"
-                            target="_blank">(GitHub)</a></li>
-                    <li>Or connect with me on <s>Instagram</s> <a
-                            href="https://www.linkedin.com/in/michael-huang-610661196/" target="_blank">(LinkedIn)</a>
-                    </li>
-                </ul>
-                <br>
-                Seriously, who still use those things these days?
-            </div>
-        </div>
-    </main>
-    <footer data-nosnippet>
-        Personal Email: michaelyhuang23 (at) gmail (dot) com
-    </footer>
+  <div id="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-link popright" style="padding-left: 10%;">
+          <a href="index.html" class="selected">Michael Huang</a>
+        </li>
+        <li class="nav-link popright" style="padding-left: 17%;">
+          <a href="project.html">Projects</a>
+        </li>
+        <li class="nav-link popright" style="padding-left: 35%;">
+          <a href="https://intuitivephysics.me">Intuitive Physics</a>
+        </li>
+        <li class="nav-link popright" style="padding-left: 15%;">
+          <a href="https://daylightreveries.substack.com">Daylight Reveries</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <img src="assets/images/photo.jpg" id="headshot">
+    <div id="blurb">
+        <h3>Hi!</h3>
+        <p>
+            I am <span class="tooltip">Michael<span class="tooltiptext">Yihao Huang, 黄翊皓</span></span>! So what does that mean exactly? I don't know either and I'm still finding out. For now, I'm a high school student interested in <i>CS</i>, <i>physics</i>, <i>writing</i>, and more recently, <i>math</i>. I'm learning to do research. My past works have focused on <span class="tooltip">algorithm designs<span class="tooltiptext">I did two years of research in parallel algorithms under the PRIMES program. In 2021, my partner and I developed a parallel algorithm for bi-core decomposition. In 2022, I developed a parallel clustering algorithm for Density-Peaks Clustering</span></span> and <span class="tooltip">applicative machine learning<span class="tooltiptext">In 2021 Summer, I worked at Prof. Scheutz's Human Robot Interaction lab to integrate an object detector AI model into the robotics system. In 2022 Summer, under the Research Science Institute (RSI) program, I worked at Prof. Necib's astrophysics lab to develop novel graph neural network based clustering algorithms for stellar substructure identification.</span></span> in physics and robotics, but I'm hoping to get into machine learning research with a more mathematical taste in the future. I also enjoy writing about <span class="tooltip">physics<span class="tooltiptext"><a href="https://intuitivephysics.me">Intuitive Physics</a></span></span> and <span class="tooltip">(political) philosophy<span class="tooltiptext"><a href="https://daylightreveries.substack.com">Daylight Reveries</a></span></span> as a way to discharge my thoughts. 
+        </p>
+        <p>
+            Just as <span class="tooltip">Venus de Milo<span class="tooltiptext"><img src="assets/images/venus.jpg" style="height: 300px;"></span></span> would be incomplete without two slightly incongruous arms, a personal blurb would be deficient without an origin story. Way before doing research, I <span class="tooltip">fiddled with robotics<span class="tooltiptext">I did WRO, FLL, FTC, and VEX robotics (no I won't explain the acronyms). I led a robotics team in middle school and again now in high school.</span></span>. When I got locked away with a computer during the pandemic, I got bored and became a <span class="tooltip">competitive programmer<span class="tooltiptext">I did USA Computing Olympiad and also some other smaller contests. I attended USACO camp in 2022 Summer. I also co-founded The Andover Computing Open</span></span> (and also began physics blogging). It was through competitive programming that I was introduced to doing research in parallel algorithm designs. Then, I started doing more research, particularly in AI. <span class="tooltip">By some will of the universe<span class="tooltiptext">Some say humans have free will. Others, myself included, disagree. We live in a deterministic universe with the only indeterminism introduced by quantum uncertainty. In a way, we are drifting in a windless ocean, subject to only the random flutterings of waves–––the will of the universe. Each decision we make is not an exercise of our free will, but a valuable experience to understand ourselves–––our most intimate ideas and dreams.</span></span>, I came to the realization one day that we live in a very screwed up time with a lot of <span class="tooltip">existential threats<span class="tooltiptext">misaligned/unaligned artificial general intelligence, nuclear annihilation, climate change, e.t.c.</span></span>. And that was when I began to find interest in (political) philosophy and writing. 
+        </p>
+    </div>
+  </main>
 </body>
 
 </html>

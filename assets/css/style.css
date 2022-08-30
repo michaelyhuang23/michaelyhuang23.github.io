@@ -1,0 +1,172 @@
+*{
+	font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h5{
+	font-size: 1.3em;
+}
+
+p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+a:hover{
+	color: #555555;
+}
+
+a{
+	color: #000000;
+}
+
+.nav-link{
+	width: 100%;
+}
+
+.selected{
+	font-weight: bold;
+}
+
+.nav-link a{
+	color: #EEEEEE;
+	text-decoration: none;
+	background-color: rgba(17, 17, 17, 1);
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	position: relative;
+}
+
+.nav-link a:after {
+  z-index: 12;
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -3.25vw;
+  border-top: 3.25vw solid transparent;
+  border-bottom: 3.25vw solid transparent;
+  border-right: 3.25vw solid transparent;
+  border-left: 3.25vw solid rgba(17, 17, 17, 1);
+}
+
+.popright{
+	padding-left: 10%;
+	white-space: nowrap;
+	overflow:hidden;
+	width: 100%;
+	letter-spacing: 0.3em;
+	font-size: 5vw;
+	transition: 0.5s;
+}
+
+.popright:hover{
+	width: 2000%;
+}
+
+#sidebar{
+	z-index: 10;
+    display: block;
+    position: fixed;
+    background-color: rgba(17, 17, 17, 1);
+    box-shadow: 5px 5px 20px 0px rgb(0, 0, 0);
+    border-right: 2px solid black;
+    width:5%;
+    height: 100%;
+}
+
+main{
+	position: fixed;
+	width: 95%;
+	padding-top: 5%;
+	margin-left: 5%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#headshot{
+	float: left;
+	width: 40%;
+	padding-left: 5%;
+	border-radius: 10% 30% 50% 70%;
+}
+
+#blurb{
+	float: left;
+	width: 60%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	padding: 0.3em;
+	background-color: rgb(17, 17, 17);
+	color: rgba(255, 255, 255);
+	opacity: 0;
+	text-align: center;
+	border-radius: 0.3em;
+	transition: 0.3s;
+	margin-left: auto; 
+	margin-right: auto; 
+	right: 0; 
+  	min-width: 400px;
+  	max-width: 80vw;
+  	bottom: 1.5em;
+	position: absolute;
+	z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip a{
+	color: #FFFFFF;
+}
+
+.tooltip a:hover{
+	color: #999999;
+}
+
+.flex-container{
+	padding-top: 10px;
+	padding-bottom: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	grid-gap: 3em;
+	overflow-y: scroll;
+}
+
+.flex-element{
+	max-width: 400px;
+	padding: 1.5em;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 10px rgb(150, 150, 150);
+}
+
+.white-text{
+	color: white;
+}
+
