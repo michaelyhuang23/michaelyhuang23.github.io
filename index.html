@@ -1,35 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michael Huang</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav>
-    <a href="#about" class="tab active" onclick="showTab('about', this)">About</a>
-    <a href="#research" class="tab" onclick="showTab('research', this)">Research</a>
-  </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Michael Huang</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <a href="#about" class="tab active" onclick="showTab('about', this)"
+                >About</a
+            >
+            <a href="#research" class="tab" onclick="showTab('research', this)"
+                >Research</a
+            >
+        </nav>
 
-  <div class="content">
-    <section id="about" class="page active">
-      <h1>Michael Huang</h1>
-      <p>Write something about yourself here.</p>
-    </section>
+        <div class="content">
+            <section id="about" class="page active">
+                <h1>Michael Huang</h1>
+                <p>
+                    Hi! I'm Michael. I am building Covalence Lab, where we work
+                    on human-ai interaction. I dropped out of mit, but
+                    previously I was a physics student and did an assortment of
+                    things semi-related to physics, cs, and ai. I worked on
+                    parallel algorithms under Prof. Julian Shun, did quantum
+                    photonics research under Prof. Soljacic, then worked on llm
+                    quantization at Intel's gpu team.
+                </p>
+            </section>
 
-    <section id="research" class="page">
-      <!-- Research entries go here. Template:
-      <div class="paper">
-        <h2>Paper Title</h2>
-        <p class="venue"><a href="#">Venue Name</a> &middot; 2025</p>
-        <p class="authors">Author One, Author Two, Author Three</p>
-        <p class="blurb">A short description of what the paper is about.</p>
-      </div>
-      -->
-    </section>
-  </div>
+            <section id="research" class="page">
+              <p class="resume-link"><a href="resume.pdf" target="_blank">resume</a></p>
 
-  <script src="main.js"></script>
-</body>
+              <div class="paper">
+                <h2>Optimizers for Low Bit LLM Quantization</h2>
+                <p class="venue">Intel Patent &middot; Filed 2026</p>
+                <p class="authors">Michael Huang, Yehong Jiang, Vincent Lu, Yen-Kuang Chen, Fangwen Fu</p>
+                <p class="blurb">Developed gradient-based optimizer to perform low-bit quantization of LLM. Improved upon AutoRound's optimizer design by correcting for unstable dynamics caused by noisy STEs, achieving lower distortion.</p>
+              </div>
+
+              <div class="paper">
+                <h2>Quantum Tunneling Dynamics of Biased OPO Systems</h2>
+                <p class="venue"><a href="#">CLEO'25</a> &middot; 2025</p>
+                <p class="authors">Michael Huang, Seou Choi, Yannick Salamin, Marin Soljacic</p>
+                <p class="blurb">Analyzed biased OPO quantum state's stochastic dynamics with statistical physics. Approximated photon tunneling rate with a modified Kramer's method. Compared against numerical solution from finite element method.</p>
+              </div>
+
+              <div class="paper">
+                <h2>Parallel Clustering with Graph Based Nearest Neighbor Search</h2>
+                <p class="venue"><a href="#">ACDA'25</a> &middot; 2025</p>
+                <p class="authors">Shangdi Yu, Joshua Engels, Michael Huang, Julian Shun</p>
+                <p class="blurb">Used approximate graph-based nearest neighbor search to accelerate high dimensional density-peaks clustering, achieving over 734x speedup over previous state-of-the-art.</p>
+              </div>
+
+              <div class="paper">
+                <h2>Faster Parallel Exact Density Peaks Clustering</h2>
+                <p class="venue"><a href="#">ACDA'23</a> &middot; 2023</p>
+                <p class="authors">Michael Huang, Shangdi Yu, Julian Shun</p>
+                <p class="blurb">Developed the priority search kd-tree data structure, and applied it to a parallel density-peaks clustering algorithm that outperforms existing low-dimensional density-peaks clustering algorithms by up to 13000x.</p>
+              </div>
+
+              <div class="paper">
+                <h2>Efficient Algorithms for Parallel Bi-core Decomposition</h2>
+                <p class="venue"><a href="#">APoCS'23</a> &middot; 2023</p>
+                <p class="authors">Michael Huang, Claire Wang, Jessica Shi, Julian Shun</p>
+                <p class="blurb">Developed efficient algorithms for bi-core decomposition, applied in fraudster detection and bioinformatics for analyzing bipartite graphs. Outperformed existing algorithms by up to 4.9x.</p>
+              </div>
+            </section>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
 </html>

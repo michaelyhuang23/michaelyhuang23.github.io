@@ -56,6 +56,19 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+.resume-link {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.resume-link a {
+  color: #555;
+}
+
+.resume-link a:hover {
+  color: #222;
+}
+
 /* Research entries */
 .paper {
   margin-bottom: 2.5rem;
